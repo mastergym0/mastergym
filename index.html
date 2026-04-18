@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>MASTERGYM — Compression Wear Morocco</title>
+<title>COMPRESSION.MA — Compression Wear Morocco</title>
 <meta name="description" content="Premium compression shirts. Cash on delivery across Morocco in 48H. Spider, Hellforged and Pro designs."/>
+<meta property="og:title" content="COMPRESSION.MA — Compression Wear"/>
+<meta property="og:description" content="Premium compression shirts. Cash on delivery. 48H delivery across Morocco."/>
+<meta property="og:url" content="https://compression.ma/"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet"/>
 <style>
@@ -282,18 +285,7 @@ footer{background:var(--ink);border-top:1px solid var(--br);padding:56px 40px 32
   max-width:1320px;margin-inline:auto;
 }
 
-/* ── WHATSAPP FLOAT ── */
-.wa-float{
-  position:fixed;bottom:28px;right:24px;z-index:900;
-  width:52px;height:52px;border-radius:50%;
-  background:linear-gradient(135deg,#25D366,#128C7E);
-  display:flex;align-items:center;justify-content:center;
-  box-shadow:0 8px 28px rgba(37,211,102,.4);
-  cursor:pointer;transition:transform .2s,box-shadow .2s;
-  text-decoration:none;border:2px solid rgba(255,255,255,.15);
-}
-.wa-float:hover{transform:scale(1.1);box-shadow:0 12px 36px rgba(37,211,102,.6)}
-.wa-float svg{color:#fff}
+
 
 /* ═══ PRODUCT PAGE ═══ */
 #page-product{padding-top:var(--nav)}
@@ -487,9 +479,9 @@ h2{
   nav{top:8px;left:10px;right:10px;padding:0 18px;height:56px}
   :root{--nav:56px}
   .nl:not(.nc){display:none}
-  .hero{grid-template-columns:1fr;min-height:100svh;padding-top:0}
+  .hero{grid-template-columns:1fr;min-height:0;padding-top:0}
   .hright{position:absolute;inset:0;opacity:.18;z-index:0}
-  .hleft{position:relative;z-index:2;padding:calc(var(--nav) + 24px) 22px 52px;min-height:100svh;justify-content:center;max-width:100%}
+  .hleft{position:relative;z-index:2;padding:calc(var(--nav) + 28px) 22px 40px;min-height:0;justify-content:center;max-width:100%}
   section{padding:64px 18px}
   .trust-bar{padding:20px 18px}
   .ftop{grid-template-columns:1fr;gap:24px}
@@ -522,7 +514,7 @@ h2{
 
 <!-- NAV -->
 <nav>
-  <span class="logo" onclick="goHome()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')goHome()">MASTER<em>GYM</em></span>
+  <span class="logo" onclick="goHome()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')goHome()">COMPRESSION<em>.MA</em></span>
   <div class="nr">
     <button class="nl" onclick="navToProducts()">Products</button>
     <button class="nl" onclick="navToWhy()">Why Us</button>
@@ -550,7 +542,7 @@ h2{
       </div>
     </div>
     <div class="hright" aria-hidden="true">
-      <img class="hero-main-img" src="https://i.imgur.com/ojE2Oi1.jpeg" alt="MASTERGYM Compression Wear"/>
+      <img class="hero-main-img" src="https://i.imgur.com/ojE2Oi1.jpeg" alt="COMPRESSION.MA Compression Wear"/>
     </div>
   </div>
 
@@ -570,7 +562,7 @@ h2{
 
   <section id="why">
     <div class="inner">
-      <div class="ey">Why MASTERGYM</div>
+      <div class="ey">Why COMPRESSION.MA</div>
       <h2 class="sh">BUILT DIFFERENT</h2>
       <div class="wgrid">
         <div class="wc">
@@ -600,7 +592,7 @@ h2{
   <footer>
     <div class="ftop">
       <div>
-        <div class="flogo">MASTER<em>GYM</em></div>
+        <div class="flogo">COMPRESSION<em>.MA</em></div>
         <p class="fdesc">Premium compression wear for Moroccan athletes. Train harder, recover faster.</p>
       </div>
       <div>
@@ -618,13 +610,12 @@ h2{
           <li><a onclick="document.getElementById('why').scrollIntoView({behavior:'smooth'})">Why Us</a></li>
           <li><a>Delivery 48H</a></li>
           <li><a>Cash on Delivery</a></li>
-          <li><a href="https://wa.me/212600000000" target="_blank">WhatsApp Us</a></li>
         </ul>
       </div>
     </div>
     <div class="fbot">
-      <span>© 2025 MASTERGYM. All rights reserved.</span>
-      <span>جميع أنحاء المغرب — التوصيل في 48 ساعة</span>
+      <span>© 2026 COMPRESSION.MA. All rights reserved.</span>
+      <span>compression.ma · جميع أنحاء المغرب — التوصيل في 48 ساعة</span>
     </div>
   </footer>
 </div><!-- /page-home -->
@@ -701,18 +692,14 @@ h2{
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           Order Now — Cash on Delivery
         </button>
-        <p class="fnote">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:4px"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-          Free delivery — You pay only when you receive your order
-        </p>
-        <p class="farnote">التوصيل مجاني — تدفع فقط عند استلام طلبك</p>
+        <p class="farnote">الدفع عند الاستلام — تدفع فقط عند استلام طلبك</p>
       </form>
 
       <div class="succ" id="succ-box" role="alert">
         <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
         <h3>ORDER CONFIRMED!</h3>
-        <p>Your order has been received. We'll contact you on WhatsApp to confirm delivery within 48H.</p>
-        <p class="ar">تم استلام طلبك! سنتواصل معك على واتساب لتأكيد التوصيل خلال 48 ساعة.</p>
+        <p>Your order has been received. We'll call you to confirm delivery within 48H.</p>
+        <p class="ar">تم استلام طلبك! سنتصل بك لتأكيد التوصيل خلال 48 ساعة.</p>
       </div>
 
       <!-- Description shown after form -->
@@ -1169,11 +1156,18 @@ function init() {
   // Hero image carousel
   startHeroCarousel();
 
-  // Check URL for direct product link (?p=product-id)
-  const slug = new URLSearchParams(location.search).get('p');
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('p');
   if (slug) {
     const prod = PRODUCTS.find(p => p.id === slug);
     if (prod) { openProduct(prod, false); return; }
+  }
+
+  // ?s=products → skip hero for ads
+  if (params.get('s') === 'products') {
+    setTimeout(() => {
+      document.getElementById('products').scrollIntoView({ behavior: 'instant' });
+    }, 50);
   }
 }
 
@@ -1198,7 +1192,7 @@ let _savedScrollY = 0;
 
 function goHome() {
   history.pushState({}, '', location.pathname);
-  document.title = 'MASTERGYM — Compression Wear Morocco';
+  document.title = 'COMPRESSION.MA — Compression Wear Morocco';
   document.getElementById('page-home').classList.add('active');
   document.getElementById('page-product').classList.remove('active');
   // Restore the exact position the user was at in the grid
@@ -1304,7 +1298,7 @@ function openProduct(prod, pushState = true) {
   qty = 1;
 
   if (pushState) history.pushState({ prod: prod.id }, '', `?p=${prod.id}`);
-  document.title = `${prod.name} — MASTERGYM`;
+  document.title = `${prod.name} — COMPRESSION.MA`;
 
   let metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.content = prod.desc.substring(0, 150);
